@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+
 <head>
 <meta charset="utf-8">
 <title>hello!</title>
@@ -8,7 +8,7 @@
         width:100%;
     }
     body {
-	text-align: left;
+	text-align: center;
         font-family: Tahoma, Verdana, Arial, sans-serif;
     }
     h1.text-center {
@@ -23,6 +23,14 @@
 </style>
 </head>
 <body>
-<h1>Hello World!</h1>
+<form action="/action_page.php" method="post">
+Visible Username :<br>
+<input type="text" name="firstname" value="Szymek">
+<br>
+Password:<br>
+<input type="lastname" value="Kozaczek">
+<br><br>
+<input type="submit" value="submit">
+</form>
 </body>
 </html>
